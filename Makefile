@@ -20,6 +20,7 @@ CPPFLAGS += -I./                     \
             -I$(SDKTARGETSYSROOT)/usr/include/dsutils       \
             -I$(SDKTARGETSYSROOT)/usr/include/qmi           \
             -I$(SDKTARGETSYSROOT)/usr/include/qmi-framework \
+	    -I$(SDKTARGETSYSROOT)/../../../ql-ol-extsdk/include   \
 
 
 LDFLAGS += -L./ -L$(QL_SDK_PATH)/lib -lrt ${QL_EXP_LDLIBS}
